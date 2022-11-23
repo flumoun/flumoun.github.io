@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<font face="Times New Roman">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css"><
+
+	.intro { background-color:pink; }
+
+	#lastname {background-color: purple;}		
+
+	span {
+		color: blue;
+		border: 1px solid black;
+	}
+
+	.extra span{
+		color: inherit;
+	}
+
+	li {font-weight: bold;}
+	li em { color: orange; }
+	h1, em {color: red; } 
+
+	</style>
+
+</head>
+
+<body>
+	
+	<h1 style="font-size: 30pt; color: green">Feedback Form</h1>
+
+	<p>Please fill out this form to help us improve our site.</p>
+	<p> Name: <textarea rows="1" cols="25"></textarea> </p>
+
+	<p> Comments:  
+	<br><textarea rows="6" cols="50">
+Enter comments here.
+	</textarea>
+	</p>
+
+	<p> Email Address: <textarea rows="1" cols="25"></textarea> </p>
+
+	
+	<nobr><b>Thing you liked:</b><br>
+		<form action="/action_page.php" method="get">
+			<span class="intro">Site design</span> <input type="checkbox" name="thing" value="Site design">
+			Links <input type="checkbox" name="thing" value="Links" >
+			Each of use  <input type="checkbox" name="thing" value="Each of use" >
+			Images <input type="checkbox" name="thing" value="Images" >
+			Source code <input type="checkbox" name="thing" value="Source code" ><br><br>
+
+		<b>How did you get to our site?:</b><br>
+		
+			Search engine <input type="radio" name="how" value="Search engine">
+			Links from another site <input type="radio" name="how" value="inks from another site" checked>
+			Deitel.com Web site <input type="radio" name="how" value="Deitel.com Web site" >
+			Reference in a book <input type="radio" name="how" value="Reference in a book" >
+			Other <input type="radio" name="how" value="Other" ><br><br>
+
+		
+		<b>Rate our site:
+			<select name="rate">
+				<option value="Amazing">Amazing
+				</option>
+			</select><br><br>
+
+		
+		<input type="submit" value="Submit">
+		<input type="reset" value="Clear"><br><br>
+
+		
+
+	</form>
+
+	<div>
+		On Monday,  China’s National Health Commission reported two deaths of Covid-19 patients in Beijing <span>for Sunday</span> , <br>following the death of an 87-year-old man in the capital on Saturday.<br><br>
+
+	</div>
+	
+
+	<em> Shopping list for Monday</em><br><br>
+	<li>Pizza <em>with mushrooms</em></li>
+
+</body>
+</font>
+</html>
