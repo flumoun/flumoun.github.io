@@ -3,7 +3,6 @@
 .navbar { 
 	
 	font-weight: bold;
-	color: white;
 	border: 2px solid royalblue;
 	text-align: center;
 	width: 10em;
@@ -14,6 +13,9 @@ body {
 	font-size: 30pt;
 	background-color: darkblue;
 	font-style: oblique;
+	font-family: monospace;
+	color: palegreen;
+
 
 	padding-top: 50px;
 	padding-right: 30px;
@@ -28,13 +30,21 @@ body {
 
 nav ul {	display: ;
 			list-style: none;
-			margin: 0;
-			padding: 0;		}
+			padding-top: 50px;
+			padding-left: 50px;
+			width: 100em;
+			position: relative;
+			left: 1ex;
+		}			
+
 
 nav:hover ul { display:block; }
 
 nav ul li { border-top: 2px solid royalblue;
+			margin-right: 50px;
+			padding-top: 30px;
 			background-color: white;
+			border-right: dotted;
 			width: 10em;
 			color: black; }
 
