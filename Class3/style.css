@@ -1,0 +1,34 @@
+body{background-color: lavender; }
+
+#myHeader{
+		background-color: lightblue;
+		padding: 40px;
+		text-align: center;
+	}
+
+.other {
+		background-color: tomato;
+		color: wheat;
+		padding: 10ox;
+	}
+
+body{
+		background-image: url('ani.jpeg');
+		background-attachment: fixed;
+	}
+
+
+p{
+	font-size: 20pt;
+	color: whitesmoke;
+	background-color: darkblue;
+	font-style: oblique;
+
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+
+	border: 5px solid wheat;
+	margin-top: 50px;
+}
