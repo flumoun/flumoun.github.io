@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  font-size: 24px;
+  margin-left:50px;
+  margin-left:auto;
+
+}
+
+.bar { 
+
+  width: 10em;
+  background-color: royalblue;
+ }
+
+div {
+  border: 1px solid black;
+  text-align: left;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: lightblue;
+
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+
