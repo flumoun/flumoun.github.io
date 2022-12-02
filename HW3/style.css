@@ -9,8 +9,12 @@ body {
 
 .bar { 
 
-  width: 10em;
-  background-color: royalblue;
+  margin-left: auto;
+  text-align: left;
+
+
+
+  background-color: wheat;
  }
 
 div {
