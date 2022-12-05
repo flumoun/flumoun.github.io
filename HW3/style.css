@@ -1,15 +1,37 @@
 body {
-  font-family: serif;
+  font-family: monospace;
   font-size: 12px;
 
 }
 
-.bar { 
+.bar {
 
-  margin-left: auto;
+    resize: none;
+    width: 600px;
+    height: 20px;
 
-  padding: 1px;
+ }
 
+ .bar1 {
+ 
+    resize: none;
+    width: 250px;
+    height: 20px;
+
+ }
+
+ .bar2 {
+ 
+    resize: none;
+    width: 600px;
+    height: 48px;
+
+ }
+
+ .word {
+
+  position: absolute;
+  right: 0px;
 
  }
 
