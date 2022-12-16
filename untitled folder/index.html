@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	
+	</title>
+</head>
+<body>
+
+	<input type="button" value="1st button" onclick="alert( input1)" >
+
+	<input type="button" value="2ed button" onclick="alert( input2 )" >
+
+
+
+	<script>
+
+		var name, input1, input2, result ;
+
+		/*
+		name = window.prompt( "Please enter your name");
+
+		document.writeln("<h1>Hello,  " + name + ", it's " + Date() ); 
+		*/
+
+		input1 = window.prompt( "Please enter your input1");
+
+		input2 = window.prompt( "Please enter your input2");
+
+		// result = document.writeln( parseInt(input1)  + parseInt(input2) );
+
+		if ( input1 > input2 ) {
+			document.body.style.backgroundColor = 'lightblue';
+			document.writeln( input1 + '>' + input2 );
+			
+		} else if ( input1 < input2 ) {
+			document.body.style.backgroundColor = 'lightgreen';
+			document.writeln( input1 + '<' + input2 );
+
+
+		} else {
+			document.body.style.backgroundColor = 'lightyellow';
+			document.writeln( input1 + '==' + input2 );
+
+		}
+
+	</script>
+
+
+
+</body>
+</html>
