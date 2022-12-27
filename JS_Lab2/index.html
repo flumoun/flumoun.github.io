@@ -76,7 +76,6 @@
 			dieImg.setAttribute( "alt", "die image with " + dieValue + "spot(s)" );
 		}
 
-		window.addEventListener( "load", start,false );
 		
 
 		var frequenvcy1 = 0;
@@ -92,12 +91,21 @@
 		{
 			var tableDiv = document.getElementById( "frequencyTableDiv" );
 
-			tableDiv.innerHTML = " <table border="1" style="width:30%"> " +
-								 " <tbody> <tr> </tr> "
-
-
+			tableDiv.innerHTML = " <table> " +
+								 " <caption>Die Rolling Frequencies</caption>" +
+								 " <thead><th>Face</th><th>Frequency</th>" + 
+								 " <th>Percent</th></thead> " +
+								 " <tbody> <tr> <td>1</td> <td>" + frequenvcy1 + "</td> <td>" + Math.floor((frequenvcy1/totalDice)*100) + "%" + " </td> </tr> " +
+								 		"  <tr> <td>2</td> <td>" + frequenvcy2 + "</td> <td>" + Math.floor((frequenvcy2/totalDice)*100) + "%" + " </td> </tr> " +
+								 		"  <tr> <td>3</td> <td>" + frequenvcy3 + "</td> <td>" + Math.floor((frequenvcy3/totalDice)*100) + "%" + " </td> </tr> " +
+								 		"  <tr> <td>4</td> <td>" + frequenvcy4 + "</td> <td>" + Math.floor((frequenvcy4/totalDice)*100) + "%" + " </td> </tr> " +
+								 		"  <tr> <td>5</td> <td>" + frequenvcy5 + "</td> <td>" + Math.floor((frequenvcy5/totalDice)*100) + "%" + " </td> </tr> " +
+								 		"  <tr> <td>6</td> <td>" + frequenvcy6 + "</td> <td>" + Math.floor((frequenvcy6/totalDice)*100) + "%" + " </td> </tr> " +
+								 " </tbody> </table> ";
 
 		}
+
+		window.addEventListener( "load", start,false );
 
 
 	</script>
