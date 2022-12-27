@@ -87,6 +87,34 @@
 		var totalDice = 0;
 
 
+		function tallyRolls( face )
+		{
+			switch ( face )
+			{
+			case 1:
+				++frequenvcy1;
+				break;
+			case 2:
+				++frequenvcy2;
+				break;
+			case 3:
+				++frequenvcy3;
+				break;
+			case 4:
+				++frequenvcy4;
+				break;
+			case 5:
+				++frequenvcy5;
+				break;
+			case 6:
+				++frequenvcy6;
+				break;
+			}
+
+
+		}
+
+
 		function updateFrequencyTable()
 		{
 			var tableDiv = document.getElementById( "frequencyTableDiv" );
@@ -105,7 +133,7 @@
 
 		}
 
-		window.addEventListener( "load", start,false );
+		window.addEventListener( "load", start, false );
 
 
 	</script>
