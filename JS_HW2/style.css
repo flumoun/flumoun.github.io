@@ -1,0 +1,29 @@
+body {
+  font-family: monospace;
+  font-size: 12px;
+
+}
+
+.input_box {
+
+    resize: none;
+    width: 600px;
+    height: 20px;
+
+ }
+
+ div {
+  border: 1px solid black;
+  text-align: left;
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
